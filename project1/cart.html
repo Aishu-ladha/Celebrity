@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+
+<div class="shopping-cart">
+
+  <div class="column-labels">
+    <label class="product-image">Image</label>
+    <label class="product-details">Product</label>
+    <label class="product-price">Price</label>
+    <label class="product-quantity">Quantity</label>
+    <label class="product-removal">Remove</label>
+    <label class="product-line-price">Total</label>
+  </div>
+
+  <div class="product">
+    <div class="product-image">
+      <img src="https://s.cdpn.io/3/dingo-dog-bones.jpg">
+    </div>
+    <div class="product-details">
+      <div class="product-title">Dingo Dog Bones</div>
+      <p class="product-description">The best dog bones of all time. Holy crap. Your dog will be begging for these things! I got curious once and ate one myself. I'm a fan.</p>
+    </div>
+    <div class="product-price">12.99</div>
+    <div class="product-quantity">
+      <input type="number" value="2" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">25.98</div>
+  </div>
+
+  <div class="product">
+    <div class="product-image">
+      <img src="https://s.cdpn.io/3/large-NutroNaturalChoiceAdultLambMealandRiceDryDogFood.png">
+    </div>
+    <div class="product-details">
+      <div class="product-title">Nutro™ Adult Lamb and Rice Dog Food</div>
+      <p class="product-description">Who doesn't like lamb and rice? We've all hit the halal cart at 3am while quasi-blackout after a night of binge drinking in Manhattan. Now it's your dog's turn!</p>
+    </div>
+    <div class="product-price">45.99</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">45.99</div>
+  </div>
+
+  <div class="totals">
+    <div class="totals-item">
+      <label>Subtotal</label>
+      <div class="totals-value" id="cart-subtotal">71.97</div>
+    </div>
+    <div class="totals-item">
+      <label>Tax (5%)</label>
+      <div class="totals-value" id="cart-tax">3.60</div>
+    </div>
+    <div class="totals-item">
+      <label>Shipping</label>
+      <div class="totals-value" id="cart-shipping">15.00</div>
+    </div>
+    <div class="totals-item totals-item-total">
+      <label>Grand Total</label>
+      <div class="totals-value" id="cart-total">90.57</div>
+    </div>
+  </div>
+      
+      <button class="checkout">Checkout</button>
+
+</div>
+
+<footer>
+  <div class="footer_container">
+    <div class="footer_column">
+      <h3 style="font-size: 27px; font-weight: 500">Exclusive</h3>
+      <a href="#">Subscribe</a>
+      <a href="#">Get 10% off Your first order</a>
+      <input class="placeholder" placeholder="Enter your email " />
+    </div>
+    <div class="footer_column">
+      <h3>Support</h3>
+      <a href="#"
+        >111 Bijoy sarani,Dhaka <br />
+        DH 1515,Bangladesh.</a
+      >
+      <a href="#">exclusive@gmail.com</a>
+      <a href="#">+880015-88888-9999</a>
+    </div>
+
+    <div class="footer_column">
+      <h3>Account</h3>
+      <a href="#">My Account</a>
+      <a href="#">Login / Register</a>
+      <a href="#">Cart</a>
+      <a href="#">Wishlist</a>
+      <a href="#">Shop</a>
+    </div>
+
+    <div class="footer_column">
+      <h3>Quick Link</h3>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms Of Use</a>
+      <a href="#">FAQ</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <div class="footer_column">
+      <h3>Download App</h3>
+      <a href="#" style="font-size: 12px">save $3 with App New User Only</a>
+      <div class="images">
+        <img class="barcode" src="project1/images/barcode.jpeg" alt="bar" />
+        <div class="stors">
+          <img
+            class="stor"
+            src="project1/images/googleplay.jpeg"
+            alt="google"
+          />
+          <img class="stor" src="project1/images/appstore.jpeg" alt="app" />
+        </div>
+      </div>
+      <div class="icon">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="copyright">@ Copyright Rimel 2022. All rights reserved.</div>
+</footer>
+<script src="cart.js"></script>
+</body>
+</html>
